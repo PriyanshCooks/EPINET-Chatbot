@@ -151,6 +151,18 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
+# Ignore the environment variable file
+.env
+
+# Ignore FAISS index files
+*.faiss
+
+# Ignore Python virtual environment and cache files
+venv/
+__pycache__/
+*.py[cod]
+
+
 # Cython debug symbols
 cython_debug/
 
